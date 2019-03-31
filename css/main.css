@@ -107,11 +107,18 @@ ul {
   padding: 0.25em;
 }
 
+.app_name_header {
+  width: 100%;
+  font-size: 1.5em;
+  text-align: left;
+  padding: 0.25em;
+}
+
 .featured_work_ul {
   list-style: circle;
   list-style-position:inside;
   padding-left: 1em;
-  font-size: 1.5em;
+  font-size: 1.25em;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +126,7 @@ ul {
   -webkit-margin-after: 0px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   white-space: nowrap;
 }
 

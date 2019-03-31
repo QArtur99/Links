@@ -138,6 +138,13 @@
         padding: 0.25em;
     }
 
+    .app_name_header {
+        width: 850px;
+        font-size: 2em;
+        text-align: left;
+        padding: 0.5em;
+    }
+
     #maincontent {
         width: 850px;
     }
@@ -146,7 +153,7 @@
         width: 850px;
         padding: 0.25em;
         padding-left: 2em;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .featured_work_li {

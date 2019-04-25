@@ -21,13 +21,15 @@ let freePicHref = [
     'https://www.freepik.com/free-photos-vectors/circle'
     , 'https://www.freepik.com/free-photos-vectors/background'
     , 'https://www.freepik.com/free-photos-vectors/sport'
-    
+    , 'https://www.freepik.com/free-photos-vectors/heart'
+
 ]
 
 let freePicInner = [
     'Circle vector created by freepik - www.freepik.com'
     , 'Background vector created by brgfx - www.freepik.com'
     , 'Sport vector created by sergey_kandakov - www.freepik.com'
+    , 'Heart vector created by freepik - www.freepik.com'
 ]
 
 const licenceLinkCcBy4 = 'https://creativecommons.org/licenses/by/4.0/'
@@ -76,7 +78,7 @@ createListItem = (listItem, licenceString, licenceLink) => {
 createListItemFreePic = (freePicInner, freePicHref) => {
     const li = document.createElement('li')
     const text = document.createElement('p')
-    
+
     const licence = document.createElement('a')
     licence.innerHTML = freePicInner
     licence.href = freePicHref
